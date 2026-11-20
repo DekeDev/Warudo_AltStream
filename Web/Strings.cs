@@ -4,9 +4,9 @@ namespace DEKE.AltStream {
     public static class Strings {
         public static Dictionary<SSEStatus, string> SSEStatusStrings = new() {
             {SSEStatus.Disconnected, "Disconnected from AltStream"},
-            {SSEStatus.Error, "Connected to AltStream!"},
+            {SSEStatus.Error, "Error while connecting to AltStream!"},
             {SSEStatus.Connecting, "Connecting..."},
-            {SSEStatus.Connected, "Error while connecting to AltStream!"},
+            {SSEStatus.Connected, "Connected to AltStream!"},
         };
     }
 }
