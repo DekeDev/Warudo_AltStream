@@ -35,6 +35,20 @@ After you copied the plugin to Warudo's plugin folder, you'll be able to set it 
 
 <p align="center"><img src=".img/warudo_toolbar_active.png" alt="Plugin Toolbar" height="150"/></p>
 
+4. Afterwards, in the Blueprint editor you will find the `AltStream Integration` menu that holds every node that interacts with AltStream.
+
+<p align="center"><img src=".img/warudo_plugin_nodes.png" alt="Plugin Blueprint Nodes" height="250"/></p>
+   
+*For more information on how to use Warudo's blueprints, please refer to the [Warudo Documentation](https://docs.warudo.app/docs/blueprints/overview).*
+
+### Known issues
+
+---
+- A bunch of functionality is currently still missing. I was mostly focusing on setting up a proper baseline for the plugin before actually adding a billion features!
+- The plugin *may* not always automatically reconnect to the API if it loses connection. It *should* it most cases, but there might be weird connection issues that'll prevent a reconnect attempt from working.
+- There's no overview of blueprint nodes *just yet*. I'll probably build a proper documentation once more nodes are set up and ready to go.
+- Not everything inside the codebase is properly documented yet and some of the existing documentation could use some cleanup.
+
 ### Building
 
 ---
